@@ -16,5 +16,6 @@ while True:
         print("Goodbye!")
         break # Using the 'break' keyword to break out of the loop
     # If the input is not the exit code
-    num = int(input("Enter a binary number: "))  # Asking for input
+    print("Welcome to my decimal to binary converter! Use the exit code '1' to exit the program!")
+    num = int(input("Enter a decimal number: "))  # Asking for input
     print(decimalToBinary(num))  # Printing the binary output
